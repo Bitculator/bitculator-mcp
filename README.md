@@ -93,27 +93,25 @@ same key as an `X-API-Key` header instead.
 Every tool is read-only and publishes an `outputSchema`; results come back as text and as
 `structuredContent`.
 
-| Tool | What it does |
-|---|---|
-| `search_coins` | Resolve a coin by name or symbol to its slug, with a ranked market summary per match |
-| `get_coin` | Full profile for one coin: supplies, rank, all-time high/low, valuation, links, contracts |
-| `get_prices` | Current prices for up to 100 coins in one call, optionally converted to a fiat currency |
-| `get_price_history` | OHLCV candles for a coin over a date range |
-| `get_historical_price` | The price of one coin on a specific past date |
-| `get_top_movers` | The biggest gainers or losers over the last 24 hours or 7 days |
-| `get_trending_coins` | The coins currently drawing the most attention on Bitculator |
-| `get_global_market` | Whole-market snapshot: market cap, volume, dominance, counts, Fear & Greed |
-| `get_global_history` | Time series of the total crypto market cap or total volume |
-| `get_fear_greed` | The Fear & Greed index for the whole market or for one coin |
-| `get_altseason_index` | Whether altcoins are outperforming Bitcoin right now |
-| `convert_currency` | Convert an amount between crypto and fiat currencies at live rates |
-| `list_exchanges` | Ranked exchanges with 24h volume, volume dominance and pair/asset counts |
-| `get_exchange` | Full profile for one exchange: rank, volume, dominance, pairs, assets, links |
-| `get_exchange_trust_score` | An exchange's trust score (0-10) with its 13-factor breakdown |
-| `get_coin_markets` | Where a coin trades: its tickers across exchanges, sorted by volume |
-| `get_coin_technicals` | Technical snapshot for a coin: RSI, MACD, SMA, ADX, MFI, CCI, OBV, VWAP and more |
-| `get_liquidations_summary` | Today's futures liquidation totals with the long/short split |
-| `calculate_dca` | Backtest a dollar-cost-averaging plan against real price history |
+- `search_coins`: Resolve a coin by name or symbol to its slug, with a ranked market summary per match
+- `get_coin`: Full profile for one coin: supplies, rank, all-time high/low, valuation, links, contracts
+- `get_prices`: Current prices for up to 100 coins in one call, optionally converted to a fiat currency
+- `get_price_history`: OHLCV candles for a coin over a date range
+- `get_historical_price`: The price of one coin on a specific past date
+- `get_top_movers`: The biggest gainers or losers over the last 24 hours or 7 days
+- `get_trending_coins`: The coins currently drawing the most attention on Bitculator
+- `get_global_market`: Whole-market snapshot: market cap, volume, dominance, counts, Fear & Greed
+- `get_global_history`: Time series of the total crypto market cap or total volume
+- `get_fear_greed`: The Fear & Greed index for the whole market or for one coin
+- `get_altseason_index`: Whether altcoins are outperforming Bitcoin right now
+- `convert_currency`: Convert an amount between crypto and fiat currencies at live rates
+- `list_exchanges`: Ranked exchanges with 24h volume, volume dominance and pair/asset counts
+- `get_exchange`: Full profile for one exchange: rank, volume, dominance, pairs, assets, links
+- `get_exchange_trust_score`: An exchange's trust score (0-10) with its 13-factor breakdown
+- `get_coin_markets`: Where a coin trades: its tickers across exchanges, sorted by volume
+- `get_coin_technicals`: Technical snapshot for a coin: RSI, MACD, SMA, ADX, MFI, CCI, OBV, VWAP and more
+- `get_liquidations_summary`: Today's futures liquidation totals with the long/short split
+- `calculate_dca`: Backtest a dollar-cost-averaging plan against real price history
 
 Prices, rates and supplies are returned as decimal strings, so no precision is lost. Some tools need
 a paid MCP plan; the [MCP page](https://bitculator.com/en/crypto-mcp) lists which.
