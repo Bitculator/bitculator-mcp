@@ -1,6 +1,6 @@
 ---
 name: bitculator
-description: Answer crypto market questions with live data from the Bitculator MCP server: prices, price history, Fear & Greed, technical indicators, exchange trust scores, liquidations, conversions and DCA backtests. Use when the user asks about a coin's price or trend, market sentiment, which exchanges are trustworthy, or what a recurring buy would have returned.
+description: "Answer crypto market questions with live data from the Bitculator MCP server: prices, price history, Fear & Greed, technical indicators, exchange trust scores, liquidations, conversions and DCA backtests. Use when the user asks about a coin's price or trend, market sentiment, which exchanges are trustworthy, or what a recurring buy would have returned."
 ---
 
 # Bitculator crypto market data
