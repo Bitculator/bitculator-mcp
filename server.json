@@ -3,13 +3,20 @@
   "name": "com.bitculator/market-data",
   "title": "Bitculator",
   "description": "Crypto market data for AI agents: live prices, OHLCV, sentiment, indicators and exchanges.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "websiteUrl": "https://bitculator.com/en/crypto-mcp",
+  "repository": {
+    "url": "https://github.com/Bitculator/bitculator-mcp",
+    "source": "github",
+    "id": "1404503821"
+  },
   "icons": [
     {
       "src": "https://bitculator.com/media/favicon/apple-touch-icon.png",
       "mimeType": "image/png",
-      "sizes": ["180x180"]
+      "sizes": [
+        "180x180"
+      ]
     }
   ],
   "remotes": [
