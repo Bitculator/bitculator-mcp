@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "bitculator": {
+      "url": "https://bitculator.com/mcp",
+      "headers": {
+        "Authorization": "Bearer ${BITCULATOR_API_KEY}"
+      }
+    }
+  }
+}

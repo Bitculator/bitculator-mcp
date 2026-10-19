@@ -1,0 +1,25 @@
+{
+  "name": "bitculator",
+  "version": "1.0.0",
+  "description": "Live crypto market data for Cursor: prices, price history, Fear & Greed, technical indicators, exchange trust scores, liquidations, conversions and DCA backtests, from the hosted Bitculator MCP server with 19 read-only tools.",
+  "author": {
+    "name": "Bitculator",
+    "email": "contact@bitculator.com"
+  },
+  "homepage": "https://bitculator.com/en/crypto-mcp",
+  "repository": "https://github.com/Bitculator/bitculator-mcp",
+  "license": "MIT",
+  "keywords": ["crypto", "market-data", "prices", "fear-greed", "indicators", "exchanges", "mcp"],
+  "logo": "assets/logo.png",
+  "variables": {
+    "type": "object",
+    "properties": {
+      "BITCULATOR_API_KEY": {
+        "type": "string",
+        "title": "Bitculator MCP key",
+        "description": "Free key from https://bitculator.com/user/developer/mcp (free plan: 2,500 calls a month, no card)."
+      }
+    },
+    "required": ["BITCULATOR_API_KEY"]
+  }
+}

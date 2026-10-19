@@ -34,7 +34,9 @@ claude mcp add --transport http bitculator \
     --header "Authorization: Bearer YOUR_API_KEY"
 ```
 
-### Cursor (`~/.cursor/mcp.json`)
+### Cursor
+
+This repository is also a Cursor plugin (`.cursor-plugin/plugin.json`): it asks for your MCP key once (stored by Cursor, never in this repo) and adds the server and the `bitculator` skill. Or configure it by hand in `~/.cursor/mcp.json`:
 
 ```json
 {
